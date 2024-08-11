@@ -1,6 +1,10 @@
+## Unreleased changes (2024-08-12)
+
+* docs: Added license The Unlicense [[details](https://github.com/cbboyan/git-auto-version/commit/) | [browse](https://github.com/cbboyan/git-auto-version/tree/)]
+
 ## v0.0.2 (2024-08-12)
 
-* feat!: Added `browse` links to ChangeLog [[details](https://github.com/cbboyan/git-auto-version/commit/) | [browse](https://github.com/cbboyan/git-auto-version/tree/)]
+* feat!: Added `browse` links to ChangeLog [[details](https://github.com/cbboyan/git-auto-version/commit/0fd1769) | [browse](https://github.com/cbboyan/git-auto-version/tree/0fd1769)]
 * docs: Updated README.md [[details](https://github.com/cbboyan/git-auto-version/commit/10b0d6b) | [browse](https://github.com/cbboyan/git-auto-version/tree/10b0d6b)]
 
 ## v0.0.1 (2024-08-12)
