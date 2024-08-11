@@ -57,16 +57,21 @@ If you want to hide some commit from the ChangeLog, use the commit type `chore`.
 
 ## Installation
 
-1. Copy `gitautoversion.py` from this repository to the root of your git project.
-2. Set up the git's `post-commit` hook by copying the file `post-commit` from this repository to `.git/hooks` and making it executable.
+1. Copy `gitautoversion.py` from this repository to the root of your git
+   project.
+2. Set up the git's `post-commit` hook by copying the file `post-commit` from
+   this repository to `.git/hooks` and making it executable.
 
-If you want to automatically push the tags to the remote, set `followTags` to true as follows:
-```bash
-$ git config push.followTags true
-```
+Optionally:
 
-If you want to adjust commits ignored for the ChangeLog, edit the variables
-`SKIP_TYPE` or `SKIP_MSG` at the top of `gitautoversion.py`.
+* If you want to automatically push the tags to the remote, set `followTags` to
+  true as follows:
+  ```bash
+  $ git config push.followTags true
+  ```
+
+* If you want to adjust commits ignored for the ChangeLog, edit the variables
+  `SKIP_TYPE` or `SKIP_MSG` at the top of `gitautoversion.py`.
 
 ## How is it implemented?
 
