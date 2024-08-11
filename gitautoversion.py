@@ -95,8 +95,9 @@ def changelog(commits):
       lines.append("")
       for (hsh, typ, msg) in coms:
          typ = f"{typ}: " if typ else ""
-         url = f"https://github.com/{GIT_USER}/{GIT_PROJECT}/commit/{hsh}"
-         lines.append(f"* {typ}{msg} [[details]({url})]")
+         url1 = f"https://github.com/{GIT_USER}/{GIT_PROJECT}/commit/{hsh}"
+         url2 = f"https://github.com/{GIT_USER}/{GIT_PROJECT}/tree/{hsh}"
+         lines.append(f"* {typ}{msg} [[details]({url1}) | [browse]({url2})]")
       lines.append("")
    if lines:
       lines.append("")

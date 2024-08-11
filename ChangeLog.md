@@ -1,6 +1,7 @@
-## Unreleased changes (2024-08-12)
+## v0.0.2 (2024-08-12)
 
-* docs: Updated README.md [[details](https://github.com/cbboyan/git-auto-version/commit/) | [browse](https://github.com/cbboyan/git-auto-version/tree/)]
+* feat!: Added `browse` links to ChangeLog [[details](https://github.com/cbboyan/git-auto-version/commit/) | [browse](https://github.com/cbboyan/git-auto-version/tree/)]
+* docs: Updated README.md [[details](https://github.com/cbboyan/git-auto-version/commit/10b0d6b) | [browse](https://github.com/cbboyan/git-auto-version/tree/10b0d6b)]
 
 ## v0.0.1 (2024-08-12)
 
