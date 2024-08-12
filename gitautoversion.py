@@ -89,6 +89,8 @@ def gitdate(hsh):
 def changelog(commits):
    changes = gitchanges(commits)
    lines = []
+   lines.append("# Change Log")
+   lines.append("")
    for (ver, coms) in changes:
       date = gitdate(coms[0][0])
       lines.append(f"## {ver} ({date})")

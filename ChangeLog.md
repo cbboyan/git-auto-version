@@ -1,6 +1,9 @@
+# Change Log
+
 ## Unreleased changes (2024-08-12)
 
-* docs: Added license The Unlicense [[details](https://github.com/cbboyan/git-auto-version/commit/) | [browse](https://github.com/cbboyan/git-auto-version/tree/)]
+* fix: Added missing ChangeLog header [[details](https://github.com/cbboyan/git-auto-version/commit/) | [browse](https://github.com/cbboyan/git-auto-version/tree/)]
+* docs: Added license The Unlicense [[details](https://github.com/cbboyan/git-auto-version/commit/9e0381e) | [browse](https://github.com/cbboyan/git-auto-version/tree/9e0381e)]
 
 ## v0.0.2 (2024-08-12)
 

@@ -1,4 +1,4 @@
-# Automated Git Versioning Tool `git-auto-version`
+# Automated Git Versioning Tool
 
 The `git-auto-version` tool sets git's **version tags** and generates the
 **ChangeLog** file, _**all automatically**_, only from the content of commit
