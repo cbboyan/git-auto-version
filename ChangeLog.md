@@ -1,8 +1,9 @@
 # Change Log
 
-## Unreleased changes (2024-08-12)
+## v0.0.3 (2024-08-12)
 
-* fix: Added missing ChangeLog header [[details](https://github.com/cbboyan/git-auto-version/commit/) | [browse](https://github.com/cbboyan/git-auto-version/tree/)]
+* fix!: Updated installation instructions [[details](https://github.com/cbboyan/git-auto-version/commit/) | [browse](https://github.com/cbboyan/git-auto-version/tree/)]
+* fix: Added missing ChangeLog header [[details](https://github.com/cbboyan/git-auto-version/commit/c78eb95) | [browse](https://github.com/cbboyan/git-auto-version/tree/c78eb95)]
 * docs: Added license The Unlicense [[details](https://github.com/cbboyan/git-auto-version/commit/9e0381e) | [browse](https://github.com/cbboyan/git-auto-version/tree/9e0381e)]
 
 ## v0.0.2 (2024-08-12)

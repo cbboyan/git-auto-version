@@ -4,6 +4,8 @@ The `git-auto-version` tool sets git's **version tags** and generates the
 **ChangeLog** file, _**all automatically**_, only from the content of commit
 messages.  You just need to write your commit messages in a syntax similar to
 [conventional commits](https://www.conventionalcommits.org/).
+No other commands are needed and everything is updated automatically whenever
+you commit you changes using `git --commit`.
 
 ## How does it work?
 
@@ -57,8 +59,8 @@ If you want to hide some commit from the ChangeLog, use the commit type `chore`.
 
 ## Installation
 
-1. Copy `gitautoversion.py` from this repository to the root of your git
-   project.
+1. Copy `gitautoversion.py` from this repository to the hooks directory
+   `.git/hooks` within your git project.
 2. Set up the git's `post-commit` hook by copying the file `post-commit` from
    this repository to `.git/hooks` and making it executable.
 
